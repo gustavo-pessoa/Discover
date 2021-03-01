@@ -11,6 +11,7 @@ function temperatureConversion(temperature) {
   
     let result = "";
 
+
     if (celsius) {
         result =  (Number(temperature.toUpperCase().replace('C', ''))  * 9/5 + 32 ) + 'F';
     }else {
